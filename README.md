@@ -1,7 +1,8 @@
 # Shopify-broke-the-theme-nav
-On 17th August Shopify started Beta testing a new navigation setup - *** BETABETABETA *** many seem to forget that Beta is not actual, but when it doesn't work as expected the theme developers get the blame so here are some patches.
+On 17th August Shopify started Beta testing a new navigation setup
+Beta is not actual, when it doesn't work as expected however theme developers are always asked to fix it
 
-This will work with sectioned themes only which were introduced in early 2017. 
+The following code change will work with sectioned themes only which were introduced in early 2017. 
 ****** IF YOUR THEME DOES NOT HAVE SECTION EDITING CAPABILITY YOU WILL NEED TO USE THE LEGACY SETUP FOR THIS ******
 
 MY THEME IS VANTAGE:   Themes > Actions > Edit HTML / CSS > Snippets > navigation.liquid
@@ -32,7 +33,6 @@ Replace all of this code:
       {% else %}
       <li><a href="{{ l.url }}">{{ l.title }}</a></li>    
       {% endif %}
-
       {% endfor %}
     </ul>
   </li>
@@ -61,7 +61,6 @@ with this:
       {% else %}
       <li><a href="{{ l.url }}">{{ l.title }}</a></li>    
       {% endif %}
-
       {% endfor %}
     </ul>
   </li>
