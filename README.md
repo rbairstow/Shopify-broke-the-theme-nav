@@ -3,12 +3,12 @@ On 17th August Shopify started Beta testing a new navigation setup
 Beta is not actual, when it doesn't work as expected however theme developers are always asked to fix it
 
 The following code change will work with sectioned themes only which were introduced in early 2017. 
+
 ****** IF YOUR THEME DOES NOT HAVE SECTION EDITING CAPABILITY YOU WILL NEED TO USE THE LEGACY SETUP FOR THIS ******
 
-MY THEME IS VANTAGE:   Themes > Actions > Edit HTML / CSS > Snippets > navigation.liquid
+VANTAGE THEME ONLY:   Themes > Actions > Edit HTML / CSS > Snippets > navigation.liquid
 
 ```html
-
 
 Replace all of this code:
 
