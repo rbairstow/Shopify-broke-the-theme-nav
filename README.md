@@ -1,4 +1,4 @@
-# Shopify-broke-the-theme-nav
+# Vantage Navigation patch
 On 17th August Shopify started Beta testing a new navigation setup
 Beta is not actual, when it doesn't work as expected however theme developers are always asked to fix it
 
